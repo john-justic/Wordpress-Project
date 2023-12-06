@@ -77,7 +77,7 @@ h1, h2 {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background: linear-gradient(to right, #e2d8ae, #f1e562, #6a740c, #c06708); 
     color: #fff;
     text-align: center;
     padding: 15px 0;
