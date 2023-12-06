@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ade2df, #f3eca1, #d7e8ec, #8e9234); 
+    background: linear-gradient(to right, #ade2df, #f3eca1, #f8d56c, #8e9234); 
     color: #333;
 }
 
@@ -217,7 +217,7 @@ footer {
 }
 /* Card styles */
 .card {
-    background: linear-gradient(to right, #f1d1c4, #928e6b, #edf3b6, #beb264); 
+    background: linear-gradient(to right, #f1d1c4, #c1ba72, #edf3b6, #beb264); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
