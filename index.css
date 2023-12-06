@@ -217,7 +217,7 @@ footer {
 }
 /* Card styles */
 .card {
-    background: linear-gradient(to right, #f1d1c4, #c1ba72, #edf3b6, #beb264); 
+    background: linear-gradient(to right, #e96834, #c1ba72, #edf3b6, #beb264); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -403,7 +403,7 @@ button[type="submit"]:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #f1d1c4, #c1ba72, #edf3b6, #beb264); 
+    background: linear-gradient(to right, #f0906a, #c1ba72, #edf3b6, #beb264); 
 }
 
 .about-container {
