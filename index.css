@@ -262,4 +262,5 @@ footer {
     border-radius: 50%; /* Creates a circular shape */
     object-fit: cover;
     border: 2px solid #fff; /* Optional: Add a border around the image */
+
 }
