@@ -264,8 +264,9 @@ footer {
     background-size: cover;
     background-position: center;
     border: 2px solid rgb(196, 161, 4); 
+    color: white;
 
 }
-h2 {
-    color: aliceblue;
+.h2 {
+    color: white;
 }
