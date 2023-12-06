@@ -129,7 +129,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #6a827f, #f89d01); /* Adjust gradient colors */
+    background: linear-gradient(to right, #336985, #d4a75a); /* Adjust gradient colors */
     opacity: 0.8;
     z-index: -1;
     animation: wave 5s ease-in-out infinite; /* Adjust animation duration */
@@ -173,4 +173,86 @@ footer {
 
 .cta-button:hover {
     background-color: #3f8c3f;
+}
+/* Card styles */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(30% - 20px);
+    /* Adjust card width and other styles as needed */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card .read-more {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #57ad5b;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .read-more:hover {
+    background-color: #3f8c3f;
+}
+/* Card styles */
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(30% - 20px);
+    /* Adjust card width and other styles as needed */
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card .watch-more {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #57ad5b;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card .watch-more:hover {
+    background-color: #3f8c3f;
+}
+
+.card iframe {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 6px;
 }
