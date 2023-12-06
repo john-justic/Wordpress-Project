@@ -9,13 +9,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ade2df, #f3eca1, #f8d56c, #8e9234); 
+    background: linear-gradient(to right, #6376b1, #934424, #c0a145, #b85e4c); 
     color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #997da7, #92675f, #6b4037, #04d5ce); 
     color: #fff;
     padding: 15px 0;
     text-align: center;
@@ -47,7 +47,7 @@ main {
 
 h1, h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: rgb(255, 253, 253);
 }
 
 /* Card sections */
@@ -154,7 +154,7 @@ footer {
 .intro-content p {
     font-size: 20px;
     margin-bottom: 40px;
-    color: rgb(9, 8, 8);
+    color: rgb(253, 252, 252);
     z-index: 1;
     position: relative;
 }
@@ -198,7 +198,7 @@ footer {
 
 .card p {
     font-size: 16px;
-    color: #666;
+    color: rgb(249, 246, 246);
     margin-bottom: 15px;
 }
 
@@ -233,7 +233,7 @@ footer {
 
 .card p {
     font-size: 16px;
-    color: #666;
+    color: rgb(5, 4, 4);
     margin-bottom: 15px;
 }
 
@@ -242,7 +242,7 @@ footer {
     padding: 8px 16px;
     text-decoration: none;
     background-color: #57ad5b;
-    color: #fff;
+    color: rgb(2, 1, 1);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -403,7 +403,7 @@ button[type="submit"]:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background: linear-gradient(to right, #f1d1c4, #c1ba72, #edf3b6, #beb264); 
 }
 
 .about-container {
@@ -413,7 +413,7 @@ button[type="submit"]:hover {
 .about-container h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333;
+    color: rgb(4, 3, 3);
 }
 
 .about-content {
@@ -422,7 +422,7 @@ button[type="submit"]:hover {
 
 .about-content p {
     font-size: 18px;
-    color: #666;
+    color: rgb(4, 3, 3);
     line-height: 1.6;
     margin-bottom: 15px;
 }
