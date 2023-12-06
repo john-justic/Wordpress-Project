@@ -77,7 +77,7 @@ h1, h2 {
 
 /* Footer styles */
 footer {
-    background: linear-gradient(to right, #e2d8ae, #f1e562, #6a740c, #c06708); 
+    background: linear-gradient(to right, #f0bd83, #f19e62, #76b0a4, #b297bf); 
     color: #fff;
     text-align: center;
     padding: 15px 0;
@@ -163,7 +163,7 @@ footer {
     display: inline-block;
     padding: 12px 24px;
     text-decoration: none;
-    background-color: #79ad57;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -172,7 +172,7 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: #3f8c3f;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
 }
 /* Card styles */
 .card {
@@ -206,14 +206,14 @@ footer {
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: #57ad5b;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .card .read-more:hover {
-    background-color: #3f8c3f;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
 }
 /* Card styles */
 .card {
@@ -241,14 +241,14 @@ footer {
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: #57ad5b;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
     color: rgb(2, 1, 1);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .card .watch-more:hover {
-    background-color: #3f8c3f;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
 }
 
 .card iframe {
@@ -274,14 +274,14 @@ footer {
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
-    background-color: #57ad5b;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
     color: #fff;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .card .listen-more:hover {
-    background-color: #3f8c3f;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
 }
 
 .card img {
@@ -357,7 +357,7 @@ footer {
 
 button[type="submit"] {
     padding: 10px 20px;
-    background-color: #57ad5b;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -367,7 +367,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #3f8c3f;
+    background: linear-gradient(to right, #908b27, #87c172, #52930d, #5d5103); 
 }
 
 .contact-info {
