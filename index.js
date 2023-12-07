@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Move the user's name to the top right corner
         userNameElement.style.position = 'absolute';
-        userNameElement.style.top = '10px';
+        userNameElement.style.top = '60px';
         userNameElement.style.right = '10px';
         userNameElement.style.color = '#fff'; // Example: Change text color to white
         userNameElement.style.fontWeight = 'bold'; // Example: Make the text bold
