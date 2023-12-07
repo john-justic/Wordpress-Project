@@ -9,13 +9,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #4a505e, #5b4d47, #6f6544, #4f332d); 
+    background: linear-gradient(to right, #e96834, #c0f68e, #72764b, #beb264);
     color: #333;
 }
 
 /* Header styles */
 header {
-    background: linear-gradient(to right, #997da7, #92675f, #6b4037, #04d5ce); 
+    background: linear-gradient(to right, #94a843, #295504, #cfef6f, #62d504); 
     color: #fff;
     padding: 15px 0;
     text-align: center;
@@ -72,9 +72,9 @@ h1, h2 {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 0 rgba(238, 4, 4, 0.7); /* Change the glowing color and intensity as needed */
 }
-
 /* Footer styles */
 footer {
     background: linear-gradient(to right, #f0bd83, #f19e62, #76b0a4, #b297bf); 
@@ -129,7 +129,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #8c6a66, #495f60, #8489a0, #344848); /* Adjust gradient colors */
+    background: linear-gradient(to right, #3a7401, #90be2b, #5d773b, #349301); /* Adjust gradient colors */
     opacity: 0.8;
     z-index: -1;
     animation: wave 5s ease-in-out infinite; /* Adjust animation duration */
@@ -176,6 +176,7 @@ footer {
 }
 /* Card styles */
 .card {
+    background: linear-gradient(to right, #e96834, #c1ba72, #edf3b6, #beb264);
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -281,7 +282,7 @@ footer {
 }
 
 .card .listen-more:hover {
-    background: linear-gradient(to right, #abaa98, #87c172, #c5f295, #d7cb7d);
+    background: linear-gradient(to right, #abaa98, #87c172, #b2eb76, #96c483);
 }
 
 .card img {
@@ -293,7 +294,7 @@ footer {
 /* Contact Section Styles */
 #contact {
     padding: 80px 0;
-    background-color: #f9f9f9;
+    background: linear-gradient(to right, #73793c, #4b9711, #edf3b6, #beb264);
     text-align: center;
 }
 
