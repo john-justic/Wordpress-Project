@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Living</title>
+    <!-- Include your CSS files for styling -->
+    <link rel="stylesheet" href="signup.css">
+    <!-- Include Font Awesome for icons (if used) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<section id="signup">
+    <div class="card">
+        <div class="signup-container">
+            <h2>Sign Up</h2>
+    <form id="signup-form">
+        <div class="form-group">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="signup-name" required>
+        </div>
+        <div class="form-group">
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="signup-email" required>
+        </div>
+        <div class="form-group">
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="signup-password" required>
+        </div>
+        <!-- Other form fields: email, password -->
+
+        <button type="submit">Sign Up</button>
+    </form>
+    <p id="signup-message"></p>
+</div>
+</div>
+</section>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const signupForm = document.getElementById('signup-form');
+        const signupMessage = document.getElementById('signup-message');
+
+        signupForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevents the default form submission
+
+            const name = document.getElementById('signup-name').value;
+            // Other input fields can be retrieved similarly (email, password)
+
+            // Save user's name in local storage
+            localStorage.setItem('signedUpUserName', name);
+
+            // Redirect to the main page after signing up
+            window.location.href = 'index.html';
+        });
+    });
+</script>
