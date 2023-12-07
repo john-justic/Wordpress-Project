@@ -60,4 +60,5 @@ button[type="submit"]:hover {
 #signup-message {
     font-size: 27px;
     margin-top: 20px;
+    text-align: right;
 }
