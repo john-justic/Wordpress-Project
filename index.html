@@ -130,7 +130,7 @@
     <div class="contact-container">
         <h2>Contact Us</h2>
         <p>Have any questions or suggestions? Feel free to get in touch!</p>
-        <form action="#" method="POST" class="contact-form">
+        <form action="#" method="POST" class="contact-form" id="contact-formm">
             <div class="form-group">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -147,8 +147,9 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
             </div>
-            <button type="submit">Send Message</button>
+            <button type="submit" id="send-message-btn">Send Message</button>
         </form>
+        <p id="contact-message-status"></p>
         <div class="contact-info">
             <p>Address: 123 Main Street, City, Country</p>
             <p>Phone: +1234567890</p>
