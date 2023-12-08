@@ -89,7 +89,7 @@ footer {
 }
 
 .social-icon {
-    color: rgb(7, 6, 6);
+    color: rgb(240, 231, 231);
     text-decoration: none;
     font-size: 20px;
     margin-right: 10px;
@@ -97,7 +97,7 @@ footer {
 }
 
 .social-icon:hover {
-    color: #060505;
+    color: #fff5f5;
 }
 
 /* Responsive styles */
@@ -392,12 +392,12 @@ button[type="submit"]:hover {
     display: inline-block;
     margin-right: 10px;
     font-size: 24px;
-    color: rgb(216, 164, 7);
+    color: rgb(7, 12, 14);
     transition: color 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #57ad5b;
+    color: #02bccd;
 }
 /* About Us Section Styles */
 .card {
