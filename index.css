@@ -9,14 +9,14 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #e96834, #c0f68e, #72764b, #beb264);
+    background: linear-gradient(to right, #ddb7a9, #d4f0ba, #dfe994, #9b977c);
     color: #333;
 }
 
 /* Header styles */
 header {
     background: linear-gradient(to right, #262626, #323530, #4a503a, #151514); 
-    color: #fff;
+    color: rgb(4, 4, 4);
     padding: 15px 0;
     text-align: center;
     width: 100px;
@@ -48,7 +48,7 @@ main {
 
 h1, h2 {
     margin-bottom: 20px;
-    color: rgb(255, 253, 253);
+    color: rgb(9, 4, 4);
 }
 
 /* Card sections */
@@ -79,7 +79,7 @@ h1, h2 {
 /* Footer styles */
 footer {
     background: linear-gradient(to right, #f0bd83, #f19e62, #76b0a4, #b297bf); 
-    color: #fff;
+    color: rgb(2, 1, 1);
     text-align: center;
     padding: 15px 0;
 }
@@ -89,7 +89,7 @@ footer {
 }
 
 .social-icon {
-    color: #fff;
+    color: rgb(7, 6, 6);
     text-decoration: none;
     font-size: 20px;
     margin-right: 10px;
@@ -97,7 +97,7 @@ footer {
 }
 
 .social-icon:hover {
-    color: #f0f0f0;
+    color: #060505;
 }
 
 /* Responsive styles */
@@ -150,12 +150,13 @@ footer {
     margin-bottom: 20px;
     z-index: 1;
     position: relative;
+    color: #151514;
 }
 
 .intro-content p {
     font-size: 20px;
     margin-bottom: 40px;
-    color: rgb(253, 252, 252);
+    color: rgb(6, 4, 4);
     z-index: 1;
     position: relative;
 }
@@ -165,7 +166,7 @@ footer {
     padding: 12px 24px;
     text-decoration: none;
     background: linear-gradient(to right, #abaa98, #87c172, #c5f295, #d7cb7d); 
-    color: #fff;
+    color: rgb(15, 11, 11);
     border-radius: 5px;
     transition: background-color 0.3s ease;
     z-index: 1;
@@ -209,7 +210,7 @@ footer {
     padding: 8px 16px;
     text-decoration: none;
     background: linear-gradient(to right, #abaa98, #87c172, #c5f295, #d7cb7d);
-    color: #fff;
+    color: rgb(8, 7, 7);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -266,18 +267,18 @@ footer {
     background-size: cover;
     background-position: center;
     border: 2px solid rgb(4, 196, 177); 
-    color: white;
+    color: rgb(6, 6, 6);
 
 }
 .h2 {
-    color: white;
+    color: rgb(9, 7, 7);
 }
 .card .listen-more {
     display: inline-block;
     padding: 8px 16px;
     text-decoration: none;
     background: linear-gradient(to right, #abaa98, #87c172, #c5f295, #d7cb7d); 
-    color: #fff;
+    color: rgb(2, 1, 1);
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -360,7 +361,7 @@ footer {
 button[type="submit"] {
     padding: 10px 20px;
     background: linear-gradient(to right, #abaa98, #87c172, #c5f295, #d7cb7d);
-    color: #fff;
+    color: rgb(4, 4, 4);
     border: none;
     border-radius: 5px;
     font-size: 16px;
