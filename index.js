@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         userNameElement.style.position = 'absolute';
         userNameElement.style.top = '60px';
         userNameElement.style.right = '10px';
-        userNameElement.style.color = '#fff'; // Example: Change text color to white
+        userNameElement.style.color = '#040403'; // Example: Change text color to white
         userNameElement.style.fontWeight = 'bold'; // Example: Make the text bold
         // Additional styles as needed
     }

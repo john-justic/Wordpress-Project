@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #ddb7a9, #d4f0ba, #dfe994, #9b977c);
+    background: linear-gradient(to right, #f0a489, #dbca61, #806d44, #9b977c);
     color: #333;
 }
 
@@ -78,7 +78,7 @@ h1, h2 {
 }
 /* Footer styles */
 footer {
-    background: linear-gradient(to right, #f0bd83, #f19e62, #76b0a4, #b297bf); 
+    background: linear-gradient(to right, #040403, #f19e62, #76b0a4, #b297bf); 
     color: rgb(2, 1, 1);
     text-align: center;
     padding: 15px 0;
